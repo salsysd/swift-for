@@ -1,6 +1,5 @@
 //
 //  AppDelegate.swift
-//  InspiratoSearch
 //
 //  Created by Salomon Valverde on 11/10/16.
 //  Copyright © 2016 Inspirato Inc. All rights reserved.

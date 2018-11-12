@@ -11,24 +11,16 @@ Unbox and Alamofire in Swift 3
 * AlamofireImage (Image response serializer for Alamofire)
 * SnapKit (Swift Autolayout DSL)
 * —————
-* Git `git clone git@github.com:salomoko/InspiratoSearchExercise.git`
+* Git `git clone git@github.com:salsysd/swift-for.git`
 * Cocoapods (1.1.1) - `pod install`
 
 ---
 
-#### [Inspirato](https://www.inspirato.com/employment/careers) Coding Exercise
+### Protocol Oriented Programming in Swift Code Example
 
-_This basic example came from a coding exercise I did while interviewing for an **iOS Developer position** at Inspirato_
-
-The reason I made this exercise a public repo is not to provide other candidates that may not be qualified a solution, but rather to provide an example of using [Unbox](https://github.com/JohnSundell/Unbox) with [Alamofire](https://github.com/serejahh/UnboxedAlamofire) in Swift 3! Plus I had fun doing it!
+This basic example came from a coding exercise I did while back i
+The reason I made this exercise a public repo is to provide an example of using [Unbox](https://github.com/JohnSundell/Unbox) with [Alamofire](https://github.com/serejahh/UnboxedAlamofire) in Swift 3! Plus I had fun doing it!
 
 **IMO** I think this is a very simple/clean solution to a very common task iOS developers face regularly. The serialization is handled very nicely as property types are automatically detected and decoded. All missing or mismatched values are gracefully handled through a single exception type, making error handling super simple!
 Your models aren't saturated with optional properties, that you later have to unwrap, guard or add more LOC at some point.
 And best of all its a light weight solution that you can use with your protocol oriented swift apps!
-
----
-
-_This example is simply meant to critique and/or get ideas off of. I ended up NOT receiving an offer from them, stating something along the lines of your code was very elegant and clean but it didn't touch on the areas they were looking for. Whatever that means, I'm assuming because I failed to implement AutoLayout on a couple screens, simply spaced it!_
-
-
-
